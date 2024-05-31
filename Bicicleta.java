@@ -47,8 +47,9 @@ public class Bicicleta {
     }
 
     public static void main(String[] args) {
-        Bicicleta miBicicleta = new Bicicleta(movimiento:false,uso:"Enduro",marca:"SX V5",color:"Rojo");
+        Bicicleta miBicicleta = new Bicicleta(false,"Enduro","SX V5","Rojo");
         miBicicleta.mostrarEstado();
+        miBicicleta.getmovimientoT();
         miBicicleta.getmovimientoT();
         miBicicleta.getmovimientoF();
         miBicicleta.getmovimientoF();
